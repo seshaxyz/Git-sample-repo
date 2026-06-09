@@ -1,0 +1,34 @@
+go to windows command prompt:
+
+cd C:\Venkata_Personal_documents\Selenium\Git-sample-repo
+click enter
+enter command: git status 
+click enter
+fatal: not a git repository(or any of the parent directories): .git
+enter command: git init
+click enter
+you got message: Initialized empty Git repository in C:/Venkata_Personal_documents/Selenium/Git-sample-repo/.git/
+
+enter command: git status
+click enter
+you see response as:
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+
+useful commands:
+git status
+git init
+git config --global user.name "venkata"
+git config --global user.email "venkata@gmail.com"
+git config  user.name "venkata"
+git config  user.email "venkata@gmail.com"
+git add
+git commit -m ""
+git log 
+Git diff <filename>
+
+
