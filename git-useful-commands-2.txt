@@ -1,0 +1,60 @@
+go to windows command prompt:
+
+cd C:\Venkata_Personal_documents\Selenium\Git-sample-repo
+click enter
+enter command: git status 
+click enter
+fatal: not a git repository(or any of the parent directories): .git
+enter command: git init
+click enter
+you got message: Initialized empty Git repository in C:/Venkata_Personal_documents/Selenium/Git-sample-repo/.git/
+
+enter command: git status
+click enter
+you see response as:
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+
+useful commands:
+git status
+git init
+git config --global user.name "venkata"
+git config --global user.email "venkata@gmail.com"
+git config  user.name "venkata"
+git config  user.email "venkata@gmail.com"
+git add
+git commit -m ""
+git log 
+Git diff <filename>
+
+
+----------------------------------------------------------------------------
+…or create a new repository on the command line
+---------------------------------------------------------------------------
+echo "# Git-sample-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/seshaxyz/Git-sample-repo.git
+git push -u origin main
+
+
+-------------------------------------------------------------------------------------------
+…or push an existing repository from the command line
+-------------------------------------------------------------------------------------------
+git remote add origin https://github.com/seshaxyz/Git-sample-repo.git
+git branch -M main
+git push -u origin main
+
+
+-------------------------------------------------------------------------------------------
+how to clone file from repository
+------------------------------------------------------------------------------------------
+cd ..  -- this is to change directory
+cd git-demo-repo --- this is directory where file needs to be cloned
+git clone https://github.com/seshaxyz/Git-sample-repo.git      -- this url comes from github
